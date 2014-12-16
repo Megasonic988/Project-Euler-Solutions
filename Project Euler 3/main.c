@@ -2,8 +2,8 @@
 
 int main(void)
 {
-  int n = 13195;
-  int i = 2;
+  unsigned long long n = 600851475143;
+  int i;
 
   for (i = 2; i < n; i++) {
     while (n % i == 0) {
